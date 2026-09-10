@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.jetmovie.app-mergeReleaseResources-69:/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\kifan\\.gradle\\caches\\transforms-3\\5edd09da2e90f833746da753e98e43fc\\transformed\\core-splashscreen-1.0.1\\res\\values-v31\\values-v31.xml",
+                    "from": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,473",
+                        "endLines": "8,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "468,697"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,371 @@
+C:\Users\kifan\.gradle\caches\transforms-3\93bba6e9784a02da2311f458c7502c48\transformed\ui-release\jars\lint.jar: Warning: Library lint checks reference invalid APIs; these checks will be skipped!
+
+Lint found an issue registry (androidx.compose.ui.lint.UiIssueRegistry)
+which contains some references to invalid API:
+com.android.tools.lint.detector.api.UastLintUtilsKt: boolean isIncorrectImplicitReturnInLambda(org.jetbrains.uast.UElement)
+(Referenced from androidx/compose/ui/lint/ReturnFromAwaitPointerEventScopeDetector.class)
+
+Therefore, this lint check library is not included
+in analysis. This affects the following lint checks:
+UnnecessaryComposedModifier
+ModifierFactoryExtensionFunction
+ModifierFactoryReturnType
+ModifierFactoryUnreferencedReceiver
+ModifierNodeInspectableProperties
+ModifierParameter
+MultipleAwaitPointerEventScopes
+ReturnFromAwaitPointerEventScope
+SuspiciousCompositionLocalModifierRead
+SuspiciousModifierThen
+
+To use this lint check, upgrade to a more recent version
+of the library. [ObsoleteLintCustomCheck]
+C:\Users\kifan\.gradle\caches\transforms-3\dd4d611d41373a316fe983a504a6dd37\transformed\navigation-common-2.8.2\jars\lint.jar: Warning: Library lint checks reference invalid APIs; these checks will be skipped!
+
+Lint found an issue registry (androidx.navigation.common.lint.NavigationCommonIssueRegistry)
+which contains some references to invalid API:
+com.android.tools.lint.checks.infrastructure.TestFiles: com.android.tools.lint.checks.infrastructure.TestFile bytecode(java.lang.String,com.android.tools.lint.checks.infrastructure.TestFile,long,java.lang.String[])
+(Referenced from androidx/navigation/lint/common/LintUtilKt.class)
+
+Therefore, this lint check library is not included
+in analysis. This affects the following lint checks:
+EmptyNavDeepLink,WrongStartDestinationType
+
+To use this lint check, upgrade to a more recent version
+of the library. [ObsoleteLintCustomCheck]
+C:\Users\kifan\.gradle\caches\transforms-3\98a94c93a9340760f8c9fc3f0e190cbb\transformed\navigation-compose-2.8.2\jars\lint.jar: Warning: Library lint checks reference invalid APIs; these checks will be skipped!
+
+Lint found an issue registry (androidx.navigation.compose.lint.NavigationComposeIssueRegistry)
+which contains some references to invalid API:
+com.android.tools.lint.checks.infrastructure.TestFiles: com.android.tools.lint.checks.infrastructure.TestFile bytecode(java.lang.String,com.android.tools.lint.checks.infrastructure.TestFile,long,java.lang.String[])
+(Referenced from androidx/navigation/lint/common/LintUtilKt.class)
+
+Therefore, this lint check library is not included
+in analysis. This affects the following lint checks:
+ComposableDestinationInComposeScope,ComposableNavGraphInComposeScope,UnrememberedGetBackStackEntry,WrongStartDestinationType
+
+To use this lint check, upgrade to a more recent version
+of the library. [ObsoleteLintCustomCheck]
+C:\Users\kifan\.gradle\caches\transforms-3\64bc9c998961add4febfde92eed25a13\transformed\navigation-runtime-2.8.2\jars\lint.jar: Warning: Library lint checks reference invalid APIs; these checks will be skipped!
+
+Lint found an issue registry (androidx.navigation.runtime.lint.NavigationRuntimeIssueRegistry)
+which contains some references to invalid API:
+com.android.tools.lint.checks.infrastructure.TestFiles: com.android.tools.lint.checks.infrastructure.TestFile bytecode(java.lang.String,com.android.tools.lint.checks.infrastructure.TestFile,long,java.lang.String[])
+(Referenced from androidx/navigation/lint/common/LintUtilKt.class)
+
+Therefore, this lint check library is not included
+in analysis. This affects the following lint checks:
+DeepLinkInActivityDestination,WrongStartDestinationType,WrongNavigateRouteType
+
+To use this lint check, upgrade to a more recent version
+of the library. [ObsoleteLintCustomCheck]
+
+   Explanation for issues of type "ObsoleteLintCustomCheck":
+   Lint can be extended with "custom checks": additional checks implemented by
+   developers and libraries to for example enforce specific API usages
+   required by a library or a company coding style guideline.
+
+   The Lint APIs are not yet stable, so these checks may either cause a
+   performance degradation, or stop working, or provide wrong results.
+
+   This warning flags custom lint checks that are found to be using obsolete
+   APIs and will need to be updated to run in the current lint environment.
+
+   It may also flag issues found to be using a newer version of the API,
+   meaning that you need to use a newer version of lint (or Android Studio or
+   Gradle plugin etc) to work with these checks.
+
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\build.gradle.kts:18: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk = 35
+        ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.0.2 is available: 8.13.1 [AndroidGradlePluginVersion]
+agp = "8.0.2"
+      ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.0.2 is available: 8.13.1 [AndroidGradlePluginVersion]
+agp = "8.0.2"
+      ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.0.2 is available: 8.13.1 [AndroidGradlePluginVersion]
+agp = "8.0.2"
+      ~~~~~~~
+
+   Explanation for issues of type "AndroidGradlePluginVersion":
+   This detector looks for usage of the Android Gradle Plugin where the
+   version you are using is not the current stable release. Using older
+   versions is fine, and there are cases where you deliberately want to stick
+   with an older version. However, you may simply not be aware that a more
+   recent version is available, and that is what this lint check helps find.
+
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\build.gradle.kts:75: Warning: A newer version of com.google.firebase:firebase-bom than 33.5.1 is available: 34.6.0 [GradleDependency]
+    implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\build.gradle.kts:80: Warning: A newer version of com.google.code.gson:gson than 2.10.1 is available: 2.11.0 [GradleDependency]
+    implementation("com.google.code.gson:gson:2.10.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:4: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.17.0 [GradleDependency]
+coreKtx = "1.13.1"
+          ~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:4: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.17.0 [GradleDependency]
+coreKtx = "1.13.1"
+          ~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:4: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.17.0 [GradleDependency]
+coreKtx = "1.13.1"
+          ~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:6: Warning: A newer version of androidx.test.ext:junit than 1.2.1 is available: 1.3.0 [GradleDependency]
+junitVersion = "1.2.1"
+               ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:6: Warning: A newer version of androidx.test.ext:junit than 1.2.1 is available: 1.3.0 [GradleDependency]
+junitVersion = "1.2.1"
+               ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:6: Warning: A newer version of androidx.test.ext:junit than 1.2.1 is available: 1.3.0 [GradleDependency]
+junitVersion = "1.2.1"
+               ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:7: Warning: A newer version of androidx.test.espresso:espresso-core than 3.6.1 is available: 3.7.0 [GradleDependency]
+espressoCore = "3.6.1"
+               ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:7: Warning: A newer version of androidx.test.espresso:espresso-core than 3.6.1 is available: 3.7.0 [GradleDependency]
+espressoCore = "3.6.1"
+               ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:7: Warning: A newer version of androidx.test.espresso:espresso-core than 3.6.1 is available: 3.7.0 [GradleDependency]
+espressoCore = "3.6.1"
+               ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.6 is available: 2.9.4 [GradleDependency]
+lifecycleRuntimeKtx = "2.8.6"
+                      ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.6 is available: 2.9.4 [GradleDependency]
+lifecycleRuntimeKtx = "2.8.6"
+                      ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.6 is available: 2.9.4 [GradleDependency]
+lifecycleRuntimeKtx = "2.8.6"
+                      ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:9: Warning: A newer version of androidx.activity:activity-compose than 1.9.2 is available: 1.11.0 [GradleDependency]
+activityCompose = "1.9.2"
+                  ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:9: Warning: A newer version of androidx.activity:activity-compose than 1.9.2 is available: 1.11.0 [GradleDependency]
+activityCompose = "1.9.2"
+                  ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:9: Warning: A newer version of androidx.activity:activity-compose than 1.9.2 is available: 1.11.0 [GradleDependency]
+activityCompose = "1.9.2"
+                  ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:10: Warning: A newer version of androidx.compose:compose-bom than 2024.04.01 is available: 2025.11.00 [GradleDependency]
+composeBom = "2024.04.01"
+             ~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:10: Warning: A newer version of androidx.compose:compose-bom than 2024.04.01 is available: 2025.11.00 [GradleDependency]
+composeBom = "2024.04.01"
+             ~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:10: Warning: A newer version of androidx.compose:compose-bom than 2024.04.01 is available: 2025.11.00 [GradleDependency]
+composeBom = "2024.04.01"
+             ~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:12: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-serialization-json than 1.6.0 is available: 1.7.3 [GradleDependency]
+kotlinxSerializationJson = "1.6.0"
+                           ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:12: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-serialization-json than 1.6.0 is available: 1.7.3 [GradleDependency]
+kotlinxSerializationJson = "1.6.0"
+                           ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:12: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-serialization-json than 1.6.0 is available: 1.7.3 [GradleDependency]
+kotlinxSerializationJson = "1.6.0"
+                           ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:13: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.8.6 is available: 2.9.4 [GradleDependency]
+lifecycleRuntimeCompose = "2.8.6"
+                          ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:13: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.8.6 is available: 2.9.4 [GradleDependency]
+lifecycleRuntimeCompose = "2.8.6"
+                          ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:13: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.8.6 is available: 2.9.4 [GradleDependency]
+lifecycleRuntimeCompose = "2.8.6"
+                          ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:14: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.6 is available: 2.9.4 [GradleDependency]
+lifecycleViewmodelCompose = "2.8.6"
+                            ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:14: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.6 is available: 2.9.4 [GradleDependency]
+lifecycleViewmodelCompose = "2.8.6"
+                            ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:14: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.6 is available: 2.9.4 [GradleDependency]
+lifecycleViewmodelCompose = "2.8.6"
+                            ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:16: Warning: A newer version of androidx.compose.material:material-icons-extended than 1.7.3 is available: 1.7.8 [GradleDependency]
+materialIconsExtended = "1.7.3"
+                        ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:16: Warning: A newer version of androidx.compose.material:material-icons-extended than 1.7.3 is available: 1.7.8 [GradleDependency]
+materialIconsExtended = "1.7.3"
+                        ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:16: Warning: A newer version of androidx.compose.material:material-icons-extended than 1.7.3 is available: 1.7.8 [GradleDependency]
+materialIconsExtended = "1.7.3"
+                        ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:17: Warning: A newer version of androidx.navigation:navigation-compose than 2.8.2 is available: 2.9.6 [GradleDependency]
+navigationCompose = "2.8.2"
+                    ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:17: Warning: A newer version of androidx.navigation:navigation-compose than 2.8.2 is available: 2.9.6 [GradleDependency]
+navigationCompose = "2.8.2"
+                    ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:17: Warning: A newer version of androidx.navigation:navigation-compose than 2.8.2 is available: 2.9.6 [GradleDependency]
+navigationCompose = "2.8.2"
+                    ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:23: Warning: A newer version of androidx.hilt:hilt-navigation-compose than 1.2.0 is available: 1.3.0 [GradleDependency]
+hiltNavigationCompose = "1.2.0"
+                        ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:23: Warning: A newer version of androidx.hilt:hilt-navigation-compose than 1.2.0 is available: 1.3.0 [GradleDependency]
+hiltNavigationCompose = "1.2.0"
+                        ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:23: Warning: A newer version of androidx.hilt:hilt-navigation-compose than 1.2.0 is available: 1.3.0 [GradleDependency]
+hiltNavigationCompose = "1.2.0"
+                        ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:24: Warning: A newer version of io.coil-kt:coil-compose than 2.5.0 is available: 2.6.0 [GradleDependency]
+coilCompose = "2.5.0"
+              ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:24: Warning: A newer version of io.coil-kt:coil-compose than 2.5.0 is available: 2.6.0 [GradleDependency]
+coilCompose = "2.5.0"
+              ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:24: Warning: A newer version of io.coil-kt:coil-compose than 2.5.0 is available: 2.6.0 [GradleDependency]
+coilCompose = "2.5.0"
+              ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:25: Warning: A newer version of androidx.core:core-splashscreen than 1.0.1 is available: 1.2.0 [GradleDependency]
+coreSplashscreen = "1.0.1"
+                   ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:25: Warning: A newer version of androidx.core:core-splashscreen than 1.0.1 is available: 1.2.0 [GradleDependency]
+coreSplashscreen = "1.0.1"
+                   ~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\gradle\libs.versions.toml:25: Warning: A newer version of androidx.core:core-splashscreen than 1.0.1 is available: 1.2.0 [GradleDependency]
+coreSplashscreen = "1.0.1"
+                   ~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\java\com\example\jetmovie\MainActivity.kt:52: Information: Prefer mutableIntStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var currentLength by remember { mutableStateOf(0) }
+                                    ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "AutoboxingStateCreation":
+   Calling mutableStateOf<T>() when T is either backed by a primitive type on
+   the JVM or is a value class results in a state implementation that requires
+   all state values to be boxed. This usually causes an additional allocation
+   for each state write, and adds some additional work to auto-unbox values
+   when reading the value of the state. Instead, prefer to use a specialized
+   primitive state implementation for Int, Long, Float, and Double when the
+   state does not need to track null values and does not override the default
+   SnapshotMutationPolicy. See mutableIntStateOf(), mutableLongStateOf(),
+   mutableFloatStateOf(), and mutableDoubleStateOf() for more information.
+
+   Vendor: Jetpack Compose
+   Identifier: androidx.compose.runtime
+   Feedback: https://issuetracker.google.com/issues/new?component=612128
+
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\res\values\colors.xml:3: Warning: The resource R.color.purple_200 appears to be unused [UnusedResources]
+    <color name="purple_200">#FFBB86FC</color>
+           ~~~~~~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\res\values\colors.xml:4: Warning: The resource R.color.purple_500 appears to be unused [UnusedResources]
+    <color name="purple_500">#FF6200EE</color>
+           ~~~~~~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\res\values\colors.xml:5: Warning: The resource R.color.purple_700 appears to be unused [UnusedResources]
+    <color name="purple_700">#FF3700B3</color>
+           ~~~~~~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\res\values\colors.xml:6: Warning: The resource R.color.teal_200 appears to be unused [UnusedResources]
+    <color name="teal_200">#FF03DAC5</color>
+           ~~~~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\res\values\colors.xml:7: Warning: The resource R.color.teal_700 appears to be unused [UnusedResources]
+    <color name="teal_700">#FF018786</color>
+           ~~~~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\res\values\colors.xml:8: Warning: The resource R.color.black appears to be unused [UnusedResources]
+    <color name="black">#FF000000</color>
+           ~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\res\values\colors.xml:9: Warning: The resource R.color.white appears to be unused [UnusedResources]
+    <color name="white">#FFFFFFFF</color>
+           ~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\res\drawable\ic_launcher_foreground.xml:1: Warning: The resource R.drawable.ic_launcher_foreground appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml:2: Warning: The application adaptive icon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml:2: Warning: The application adaptive roundIcon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+
+   Explanation for issues of type "MonochromeLauncherIcon":
+   If android:roundIcon and android:icon are both in your manifest, you must
+   either remove the reference to android:roundIcon if it is not needed; or,
+   supply the monochrome icon in the drawable defined by the android:roundIcon
+   and android:icon attribute.
+
+   For example, if android:roundIcon and android:icon are both in the
+   manifest, a launcher might choose to use android:roundIcon over
+   android:icon to display the adaptive app icon. Therefore, your themed
+   application iconwill not show if your monochrome attribute is not also
+   specified in android:roundIcon.
+
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\res\drawable\bg_image_movie.jpeg: Warning: Found bitmap drawable res/drawable/bg_image_movie.jpeg in densityless folder [IconLocation]
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\res\drawable\jetmovie.png: Warning: Found bitmap drawable res/drawable/jetmovie.png in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\build.gradle.kts:75: Warning: Use version catalog instead [UseTomlInstead]
+    implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\build.gradle.kts:76: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("com.google.firebase:firebase-auth-ktx")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\build.gradle.kts:77: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("com.google.firebase:firebase-messaging-ktx")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\build.gradle.kts:78: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("com.google.firebase:firebase-firestore-ktx")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\build.gradle.kts:80: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("com.google.code.gson:gson:2.10.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\build.gradle.kts:114: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("com.google.accompanist:accompanist-flowlayout:0.32.0")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseTomlInstead":
+   If your project is using a libs.versions.toml file, you should place all
+   Gradle dependencies in the TOML file. This lint check looks for version
+   declarations outside of the TOML file and suggests moving them (and in the
+   IDE, provides a quickfix to performing the operation automatically).
+
+0 errors, 70 warnings

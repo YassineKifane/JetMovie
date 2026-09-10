@@ -1,0 +1,998 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:2:1-32:12
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\b16208d5537cab39e85c951e909644ed\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:17:1-75:12
+MERGED from [androidx.credentials:credentials:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5aa614bef410c8e2ba4e73a48b9e3cd2\transformed\credentials-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:17:1-52:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.1] C:\Users\kifan\.gradle\caches\transforms-3\72f7c4528d6d4e30e016a97aedaf11cf\transformed\googleid-1.1.1\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose:2.5.0] C:\Users\kifan\.gradle\caches\transforms-3\959dafb824445ca1a22d2a482e568935\transformed\coil-compose-2.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] C:\Users\kifan\.gradle\caches\transforms-3\86628b3f1b8b9ca7328af38455381f6e\transformed\coil-compose-base-2.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.5.0] C:\Users\kifan\.gradle\caches\transforms-3\9c7a2acf703accbc077ee0b72eca2389\transformed\coil-2.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.5.0] C:\Users\kifan\.gradle\caches\transforms-3\08c58fd60d5bd64fbc88bc6358dd58f5\transformed\coil-base-2.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.32.0] C:\Users\kifan\.gradle\caches\transforms-3\b97074ebf7da5b147e08e6e52b562eec\transformed\accompanist-flowlayout-0.32.0\AndroidManifest.xml:17:1-23:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\fb6c6591bff1f5f35189e7839f45e3a6\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\68f37b27ec881dabb29c527666df264f\transformed\firebase-messaging-ktx-24.0.3\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\kifan\.gradle\caches\transforms-3\12966074160dd0ab5bfc7e6cf059def3\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\kifan\.gradle\caches\transforms-3\6153c79dbf6cca44b5d83591dc9bcc7f\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.8.2] C:\Users\kifan\.gradle\caches\transforms-3\dd4d611d41373a316fe983a504a6dd37\transformed\navigation-common-2.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.2] C:\Users\kifan\.gradle\caches\transforms-3\64bc9c998961add4febfde92eed25a13\transformed\navigation-runtime-2.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.2] C:\Users\kifan\.gradle\caches\transforms-3\0e987f7f95bad1c8b505ec74a15a593f\transformed\navigation-common-ktx-2.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.2] C:\Users\kifan\.gradle\caches\transforms-3\e2e6af9672a306cf2ad3db16a34fa6fa\transformed\navigation-runtime-ktx-2.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.2] C:\Users\kifan\.gradle\caches\transforms-3\98a94c93a9340760f8c9fc3f0e190cbb\transformed\navigation-compose-2.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\kifan\.gradle\caches\transforms-3\09276a1b28c471dbc9235451a1269a57\transformed\biometric-1.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.dagger:hilt-android:2.49] C:\Users\kifan\.gradle\caches\transforms-3\7e6f706af1e6c6de79c83f3b13e055f8\transformed\hilt-android-2.49\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bfe3fa18a120402f605a00ec663a0792\transformed\play-services-auth-21.1.1\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] C:\Users\kifan\.gradle\caches\transforms-3\d225f37f6edea66685db1fc57ea40dbc\transformed\play-services-auth-blockstore-16.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\d3d15e8a5ed54156e033881afb7ff968\transformed\play-services-fido-21.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-identity-credentials:16.0.0-alpha02] C:\Users\kifan\.gradle\caches\transforms-3\74803ea2fb3a4de2ea4c931a669ba45e\transformed\play-services-identity-credentials-16.0.0-alpha02\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:17:1-66:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\kifan\.gradle\caches\transforms-3\2532d2411a8f89e97b70b6dc6509208c\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\kifan\.gradle\caches\transforms-3\089efa065778eaab1eac9498701a7b99\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\kifan\.gradle\caches\transforms-3\ef535220ba211fd0faf3c757fdbaaa9b\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\kifan\.gradle\caches\transforms-3\3717b21ea36471a5b9c1c290cb9cc176\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\kifan\.gradle\caches\transforms-3\629359799fd46d82b55c2541677c869b\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\c4fd24527f2d494d259ae9dc71b53964\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\kifan\.gradle\caches\transforms-3\5d1249d55d91a59c7f72789180312c84\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\kifan\.gradle\caches\transforms-3\80fbf6874a28d37b9687d1b0eb20c45a\transformed\recaptcha-18.5.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\613a3a0a39dda16eba7bf315c7d24612\transformed\integrity-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\kifan\.gradle\caches\transforms-3\8150e0c690171d9d1d91a822e8c0a734\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\kifan\.gradle\caches\transforms-3\162ea007377a88bd750c38bd2902fbf5\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\kifan\.gradle\caches\transforms-3\8c3fccf23364600c26dba70a4268e2ae\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\86082809aee88c91c6f5e1b3dbcc1468\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\cba1c1118509ec398607369acfd08f57\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\6fb47fa5f7026235bb1d3cb492950586\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\e1c24a366b8ac97687233a7b830d7227\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\6713f3e7f190df13ad72862e7f55c6e6\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\2f3be42608ef243d95dc8ac043a3668d\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\05161da6c5725e7345ea3948086252a7\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\d6cab0e0a15b54dd2c18409f5cf79cd4\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\fb94d381e65d6c358898f9e9c673a32d\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\b47dfba387224f9896a68a756e58ec0a\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\1dad04da65e08b3b731efe8ee37c5b0a\transformed\ui-test-manifest-1.7.2\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\1038a74b8b10e92aa7a508ae101aabc4\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\kifan\.gradle\caches\transforms-3\40ba0bf94cbb89eba39cbd4c4afceb76\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\kifan\.gradle\caches\transforms-3\bc1abd992b6b7af5f0cc8b204cebf001\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\947cdb92bbe67244a839b8d89351d767\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\kifan\.gradle\caches\transforms-3\6d10a84069981b7754fce809709c46ca\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.3] C:\Users\kifan\.gradle\caches\transforms-3\4dbaab09130a532201acb8b851c2a2f7\transformed\material-icons-extended-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.3] C:\Users\kifan\.gradle\caches\transforms-3\2275db60b16f431a34374f168eeaaff8\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\93bba6e9784a02da2311f458c7502c48\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\f0147255bd3f5550def92eff0d57c9a4\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\kifan\.gradle\caches\transforms-3\9078384b9ef7f2e7312f257ac3a778e6\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\kifan\.gradle\caches\transforms-3\a70be28477b95763066180ce47af5422\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\c793d9060d92b53698a18842788f0416\transformed\core-ktx-1.15.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\kifan\.gradle\caches\transforms-3\ee38063423ddee7bdff0db9bddfec447\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\kifan\.gradle\caches\transforms-3\8b9f9bba6e67089164c59a8ca1d27206\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\c4fa1a06149d3ce299e426df3228defd\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\fde92a958c4017e5a84c9c0e4c04a5c7\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\03dba0a3711d22d835cb096fd33f0bf3\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\47fe4df8823a95dcf6e85b1fd7a297f0\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\83118771f4b64a60ef6a439c3e6cb517\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\89bd5c677ca7995ee5a760ee685322f7\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kifan\.gradle\caches\transforms-3\18db95b0b4aca0a1bd2bd2fd49c21b55\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kifan\.gradle\caches\transforms-3\0af1d61c19cf3f8fac80089212bc0369\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\kifan\.gradle\caches\transforms-3\f453519d3cc2ecc71ad0b0044c3ba2c2\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\4af626896f97de23136a102dd05004f1\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\c324ed9fbf06785e54f5bfa133030e1d\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\0caa93ba768648314ec8cf9c1539f3b2\transformed\core-1.15.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\c30e3426267b5f69b88250dccea715db\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\a42a68d2b4f5f8b4fc9f8b9dc726a362\transformed\lifecycle-livedata-core-ktx-2.8.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\4e2c5976fb6cfa25754fb56363fffccb\transformed\lifecycle-livedata-2.8.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\7ff02ac4f2a23ab5df760846f59e6593\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\db53620733f5aa899020afda54f0854f\transformed\lifecycle-viewmodel-2.8.6\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\68c89c356f2ea7419f21ab1562a3026a\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\kifan\.gradle\caches\transforms-3\9603901e61282145da64245f2e185fe4\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\kifan\.gradle\caches\transforms-3\2a3d98692e31837b5508efcef20c7630\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\c7e7d815383dd89634ab53bf597f0347\transformed\lifecycle-livedata-core-2.8.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\323cbeccdeac6e15ce1bb976ff0cbd79\transformed\lifecycle-viewmodel-ktx-2.8.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\4fde8d925780e7a4c80dc59fd5278f0a\transformed\lifecycle-viewmodel-savedstate-2.8.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\e36796f1f2f6663e13e4abca6051cd2a\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\4e9499bbcbb6785ca014b91fbbed6c5b\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\5eefb356972c330cbd5947cd5181f72a\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\4e6e53347664ccefc9cd0424cc51c14f\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\6a9fac4c30abe2884f57df8ffe1687af\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bee8e33864ce9cd79bb930632622dc88\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\kifan\.gradle\caches\transforms-3\c8b95a8210f4728f3d22284c0fadf91e\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\kifan\.gradle\caches\transforms-3\970126c43196e8c7220bf8636f90cd40\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\kifan\.gradle\caches\transforms-3\f47465e50d237970582c5fbc40a32411\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\kifan\.gradle\caches\transforms-3\4e65400c5374ec0c4a5acdc8a7c55c23\transformed\fragment-1.5.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.2] C:\Users\kifan\.gradle\caches\transforms-3\82d0d263562b4d746d4edcfe98e9d605\transformed\activity-1.9.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.2] C:\Users\kifan\.gradle\caches\transforms-3\ac3a3d0a2a504a1c40fc44add49ebe16\transformed\activity-ktx-1.9.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.2] C:\Users\kifan\.gradle\caches\transforms-3\ce615c378a66a312ed795a72f99acad6\transformed\activity-compose-1.9.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\kifan\.gradle\caches\transforms-3\5edd09da2e90f833746da753e98e43fc\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\606c779567bb3d2b2500574c7fba9e37\transformed\firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\2239eee86c3813586ad3bdddafa84257\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kifan\.gradle\caches\transforms-3\e9cef282f87dcde47fdea12a4737382b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\kifan\.gradle\caches\transforms-3\dfa3e7aa2a2eb1982b0b7ae46a55cd78\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kifan\.gradle\caches\transforms-3\597d26e51817e91cd111df3f88f87103\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\549b230a7a6dd17f44f86a46d578f2bb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\kifan\.gradle\caches\transforms-3\574c2ace9e168f8bed9c5120aef2fe8b\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:15:1-31:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\3978ec68c5b0b012e50f486c4557355b\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\169200c85169acf5ff7fe31a9891f381\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\264d9cb6afd808ad935a5e8ea6b2ea36\transformed\transport-runtime-3.1.9\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\kifan\.gradle\caches\transforms-3\f2323922c4270c2ce668aa74add075bc\transformed\transport-api-3.1.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\kifan\.gradle\caches\transforms-3\3bcf5c809847c328c03748cdeeb3f7cc\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\kifan\.gradle\caches\transforms-3\5a4d871f2009258c06718bab66a1c94d\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\df8c21583270302b82c82e978ef77cca\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\df99ee145aa0af11d8b37183093d3024\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\1301195f36a5eb19c386d999be681baa\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\kifan\.gradle\caches\transforms-3\6ebe8ba14a875d05201d8f7defbcc2a2\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\kifan\.gradle\caches\transforms-3\00ca80d6d5b7f9c72323a300c3fddf31\transformed\grpc-android-1.62.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.49] C:\Users\kifan\.gradle\caches\transforms-3\b5155ca0fc1aaa072b1734f3ec292a4b\transformed\dagger-lint-aar-2.49\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\8f6345038b204da153a7fd24d514ba8d\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\kifan\.gradle\caches\transforms-3\00e9cdba5012536a7a98f2a99e98a37b\transformed\core-common-2.0.3\AndroidManifest.xml:2:1-21:12
+	package
+		INJECTED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\kifan\.gradle\caches\transforms-3\80fbf6874a28d37b9687d1b0eb20c45a\transformed\recaptcha-18.5.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\kifan\.gradle\caches\transforms-3\80fbf6874a28d37b9687d1b0eb20c45a\transformed\recaptcha-18.5.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\kifan\.gradle\caches\transforms-3\162ea007377a88bd750c38bd2902fbf5\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\kifan\.gradle\caches\transforms-3\162ea007377a88bd750c38bd2902fbf5\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\3978ec68c5b0b012e50f486c4557355b\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\3978ec68c5b0b012e50f486c4557355b\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:7:5-30:19
+INJECTED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:7:5-30:19
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\b16208d5537cab39e85c951e909644ed\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\b16208d5537cab39e85c951e909644ed\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:23:5-50:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:23:5-50:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\fb6c6591bff1f5f35189e7839f45e3a6\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\fb6c6591bff1f5f35189e7839f45e3a6\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\68f37b27ec881dabb29c527666df264f\transformed\firebase-messaging-ktx-24.0.3\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\68f37b27ec881dabb29c527666df264f\transformed\firebase-messaging-ktx-24.0.3\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bfe3fa18a120402f605a00ec663a0792\transformed\play-services-auth-21.1.1\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bfe3fa18a120402f605a00ec663a0792\transformed\play-services-auth-21.1.1\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] C:\Users\kifan\.gradle\caches\transforms-3\d225f37f6edea66685db1fc57ea40dbc\transformed\play-services-auth-blockstore-16.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] C:\Users\kifan\.gradle\caches\transforms-3\d225f37f6edea66685db1fc57ea40dbc\transformed\play-services-auth-blockstore-16.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\d3d15e8a5ed54156e033881afb7ff968\transformed\play-services-fido-21.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\d3d15e8a5ed54156e033881afb7ff968\transformed\play-services-fido-21.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\kifan\.gradle\caches\transforms-3\ef535220ba211fd0faf3c757fdbaaa9b\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\kifan\.gradle\caches\transforms-3\ef535220ba211fd0faf3c757fdbaaa9b\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\kifan\.gradle\caches\transforms-3\629359799fd46d82b55c2541677c869b\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\kifan\.gradle\caches\transforms-3\629359799fd46d82b55c2541677c869b\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\c4fd24527f2d494d259ae9dc71b53964\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\c4fd24527f2d494d259ae9dc71b53964\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\kifan\.gradle\caches\transforms-3\5d1249d55d91a59c7f72789180312c84\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\kifan\.gradle\caches\transforms-3\5d1249d55d91a59c7f72789180312c84\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\613a3a0a39dda16eba7bf315c7d24612\transformed\integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\613a3a0a39dda16eba7bf315c7d24612\transformed\integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\kifan\.gradle\caches\transforms-3\8150e0c690171d9d1d91a822e8c0a734\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\kifan\.gradle\caches\transforms-3\8150e0c690171d9d1d91a822e8c0a734\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\1dad04da65e08b3b731efe8ee37c5b0a\transformed\ui-test-manifest-1.7.2\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\1dad04da65e08b3b731efe8ee37c5b0a\transformed\ui-test-manifest-1.7.2\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\1038a74b8b10e92aa7a508ae101aabc4\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\1038a74b8b10e92aa7a508ae101aabc4\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\kifan\.gradle\caches\transforms-3\8b9f9bba6e67089164c59a8ca1d27206\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\kifan\.gradle\caches\transforms-3\8b9f9bba6e67089164c59a8ca1d27206\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\c324ed9fbf06785e54f5bfa133030e1d\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\c324ed9fbf06785e54f5bfa133030e1d\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\0caa93ba768648314ec8cf9c1539f3b2\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\0caa93ba768648314ec8cf9c1539f3b2\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\c30e3426267b5f69b88250dccea715db\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\c30e3426267b5f69b88250dccea715db\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\kifan\.gradle\caches\transforms-3\c8b95a8210f4728f3d22284c0fadf91e\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\kifan\.gradle\caches\transforms-3\c8b95a8210f4728f3d22284c0fadf91e\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\kifan\.gradle\caches\transforms-3\970126c43196e8c7220bf8636f90cd40\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\kifan\.gradle\caches\transforms-3\970126c43196e8c7220bf8636f90cd40\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\kifan\.gradle\caches\transforms-3\f47465e50d237970582c5fbc40a32411\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\kifan\.gradle\caches\transforms-3\f47465e50d237970582c5fbc40a32411\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kifan\.gradle\caches\transforms-3\e9cef282f87dcde47fdea12a4737382b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kifan\.gradle\caches\transforms-3\e9cef282f87dcde47fdea12a4737382b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kifan\.gradle\caches\transforms-3\597d26e51817e91cd111df3f88f87103\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kifan\.gradle\caches\transforms-3\597d26e51817e91cd111df3f88f87103\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\kifan\.gradle\caches\transforms-3\574c2ace9e168f8bed9c5120aef2fe8b\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\kifan\.gradle\caches\transforms-3\574c2ace9e168f8bed9c5120aef2fe8b\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\3978ec68c5b0b012e50f486c4557355b\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\3978ec68c5b0b012e50f486c4557355b\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\264d9cb6afd808ad935a5e8ea6b2ea36\transformed\transport-runtime-3.1.9\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\264d9cb6afd808ad935a5e8ea6b2ea36\transformed\transport-runtime-3.1.9\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\kifan\.gradle\caches\transforms-3\00e9cdba5012536a7a98f2a99e98a37b\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\kifan\.gradle\caches\transforms-3\00e9cdba5012536a7a98f2a99e98a37b\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\0caa93ba768648314ec8cf9c1539f3b2\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:13:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:11:9-54
+	android:roundIcon
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:14:9-54
+	tools:targetApi
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:17:9-29
+	android:icon
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:16:9-46
+	android:dataExtractionRules
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:10:9-65
+	android:name
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:8:9-52
+activity#com.example.jetmovie.MainActivity
+ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:18:9-26:20
+	android:exported
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:20:13-36
+	android:theme
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:21:13-50
+	android:name
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:19:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml:24:27-74
+uses-sdk
+INJECTED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\b16208d5537cab39e85c951e909644ed\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\b16208d5537cab39e85c951e909644ed\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
+MERGED from [androidx.credentials:credentials:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5aa614bef410c8e2ba4e73a48b9e3cd2\transformed\credentials-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5aa614bef410c8e2ba4e73a48b9e3cd2\transformed\credentials-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.1] C:\Users\kifan\.gradle\caches\transforms-3\72f7c4528d6d4e30e016a97aedaf11cf\transformed\googleid-1.1.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.1] C:\Users\kifan\.gradle\caches\transforms-3\72f7c4528d6d4e30e016a97aedaf11cf\transformed\googleid-1.1.1\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.5.0] C:\Users\kifan\.gradle\caches\transforms-3\959dafb824445ca1a22d2a482e568935\transformed\coil-compose-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.5.0] C:\Users\kifan\.gradle\caches\transforms-3\959dafb824445ca1a22d2a482e568935\transformed\coil-compose-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] C:\Users\kifan\.gradle\caches\transforms-3\86628b3f1b8b9ca7328af38455381f6e\transformed\coil-compose-base-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] C:\Users\kifan\.gradle\caches\transforms-3\86628b3f1b8b9ca7328af38455381f6e\transformed\coil-compose-base-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.5.0] C:\Users\kifan\.gradle\caches\transforms-3\9c7a2acf703accbc077ee0b72eca2389\transformed\coil-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.5.0] C:\Users\kifan\.gradle\caches\transforms-3\9c7a2acf703accbc077ee0b72eca2389\transformed\coil-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] C:\Users\kifan\.gradle\caches\transforms-3\08c58fd60d5bd64fbc88bc6358dd58f5\transformed\coil-base-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] C:\Users\kifan\.gradle\caches\transforms-3\08c58fd60d5bd64fbc88bc6358dd58f5\transformed\coil-base-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.32.0] C:\Users\kifan\.gradle\caches\transforms-3\b97074ebf7da5b147e08e6e52b562eec\transformed\accompanist-flowlayout-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.32.0] C:\Users\kifan\.gradle\caches\transforms-3\b97074ebf7da5b147e08e6e52b562eec\transformed\accompanist-flowlayout-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\fb6c6591bff1f5f35189e7839f45e3a6\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\fb6c6591bff1f5f35189e7839f45e3a6\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\68f37b27ec881dabb29c527666df264f\transformed\firebase-messaging-ktx-24.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\68f37b27ec881dabb29c527666df264f\transformed\firebase-messaging-ktx-24.0.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\kifan\.gradle\caches\transforms-3\12966074160dd0ab5bfc7e6cf059def3\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\kifan\.gradle\caches\transforms-3\12966074160dd0ab5bfc7e6cf059def3\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\kifan\.gradle\caches\transforms-3\6153c79dbf6cca44b5d83591dc9bcc7f\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\kifan\.gradle\caches\transforms-3\6153c79dbf6cca44b5d83591dc9bcc7f\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.2] C:\Users\kifan\.gradle\caches\transforms-3\dd4d611d41373a316fe983a504a6dd37\transformed\navigation-common-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.2] C:\Users\kifan\.gradle\caches\transforms-3\dd4d611d41373a316fe983a504a6dd37\transformed\navigation-common-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.2] C:\Users\kifan\.gradle\caches\transforms-3\64bc9c998961add4febfde92eed25a13\transformed\navigation-runtime-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.2] C:\Users\kifan\.gradle\caches\transforms-3\64bc9c998961add4febfde92eed25a13\transformed\navigation-runtime-2.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.2] C:\Users\kifan\.gradle\caches\transforms-3\0e987f7f95bad1c8b505ec74a15a593f\transformed\navigation-common-ktx-2.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.2] C:\Users\kifan\.gradle\caches\transforms-3\0e987f7f95bad1c8b505ec74a15a593f\transformed\navigation-common-ktx-2.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.2] C:\Users\kifan\.gradle\caches\transforms-3\e2e6af9672a306cf2ad3db16a34fa6fa\transformed\navigation-runtime-ktx-2.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.2] C:\Users\kifan\.gradle\caches\transforms-3\e2e6af9672a306cf2ad3db16a34fa6fa\transformed\navigation-runtime-ktx-2.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.2] C:\Users\kifan\.gradle\caches\transforms-3\98a94c93a9340760f8c9fc3f0e190cbb\transformed\navigation-compose-2.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.2] C:\Users\kifan\.gradle\caches\transforms-3\98a94c93a9340760f8c9fc3f0e190cbb\transformed\navigation-compose-2.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\kifan\.gradle\caches\transforms-3\09276a1b28c471dbc9235451a1269a57\transformed\biometric-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\kifan\.gradle\caches\transforms-3\09276a1b28c471dbc9235451a1269a57\transformed\biometric-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:hilt-android:2.49] C:\Users\kifan\.gradle\caches\transforms-3\7e6f706af1e6c6de79c83f3b13e055f8\transformed\hilt-android-2.49\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.49] C:\Users\kifan\.gradle\caches\transforms-3\7e6f706af1e6c6de79c83f3b13e055f8\transformed\hilt-android-2.49\AndroidManifest.xml:18:3-42
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bfe3fa18a120402f605a00ec663a0792\transformed\play-services-auth-21.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bfe3fa18a120402f605a00ec663a0792\transformed\play-services-auth-21.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] C:\Users\kifan\.gradle\caches\transforms-3\d225f37f6edea66685db1fc57ea40dbc\transformed\play-services-auth-blockstore-16.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-blockstore:16.4.0] C:\Users\kifan\.gradle\caches\transforms-3\d225f37f6edea66685db1fc57ea40dbc\transformed\play-services-auth-blockstore-16.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\d3d15e8a5ed54156e033881afb7ff968\transformed\play-services-fido-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\d3d15e8a5ed54156e033881afb7ff968\transformed\play-services-fido-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-identity-credentials:16.0.0-alpha02] C:\Users\kifan\.gradle\caches\transforms-3\74803ea2fb3a4de2ea4c931a669ba45e\transformed\play-services-identity-credentials-16.0.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-identity-credentials:16.0.0-alpha02] C:\Users\kifan\.gradle\caches\transforms-3\74803ea2fb3a4de2ea4c931a669ba45e\transformed\play-services-identity-credentials-16.0.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\kifan\.gradle\caches\transforms-3\2532d2411a8f89e97b70b6dc6509208c\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\kifan\.gradle\caches\transforms-3\2532d2411a8f89e97b70b6dc6509208c\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\kifan\.gradle\caches\transforms-3\089efa065778eaab1eac9498701a7b99\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\kifan\.gradle\caches\transforms-3\089efa065778eaab1eac9498701a7b99\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\kifan\.gradle\caches\transforms-3\ef535220ba211fd0faf3c757fdbaaa9b\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\kifan\.gradle\caches\transforms-3\ef535220ba211fd0faf3c757fdbaaa9b\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\kifan\.gradle\caches\transforms-3\3717b21ea36471a5b9c1c290cb9cc176\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\kifan\.gradle\caches\transforms-3\3717b21ea36471a5b9c1c290cb9cc176\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\kifan\.gradle\caches\transforms-3\629359799fd46d82b55c2541677c869b\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\kifan\.gradle\caches\transforms-3\629359799fd46d82b55c2541677c869b\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\c4fd24527f2d494d259ae9dc71b53964\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\c4fd24527f2d494d259ae9dc71b53964\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\kifan\.gradle\caches\transforms-3\5d1249d55d91a59c7f72789180312c84\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\kifan\.gradle\caches\transforms-3\5d1249d55d91a59c7f72789180312c84\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\kifan\.gradle\caches\transforms-3\80fbf6874a28d37b9687d1b0eb20c45a\transformed\recaptcha-18.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\kifan\.gradle\caches\transforms-3\80fbf6874a28d37b9687d1b0eb20c45a\transformed\recaptcha-18.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\613a3a0a39dda16eba7bf315c7d24612\transformed\integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\613a3a0a39dda16eba7bf315c7d24612\transformed\integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\kifan\.gradle\caches\transforms-3\8150e0c690171d9d1d91a822e8c0a734\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\kifan\.gradle\caches\transforms-3\8150e0c690171d9d1d91a822e8c0a734\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\kifan\.gradle\caches\transforms-3\162ea007377a88bd750c38bd2902fbf5\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\kifan\.gradle\caches\transforms-3\162ea007377a88bd750c38bd2902fbf5\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\kifan\.gradle\caches\transforms-3\8c3fccf23364600c26dba70a4268e2ae\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\kifan\.gradle\caches\transforms-3\8c3fccf23364600c26dba70a4268e2ae\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\86082809aee88c91c6f5e1b3dbcc1468\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\86082809aee88c91c6f5e1b3dbcc1468\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\cba1c1118509ec398607369acfd08f57\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\cba1c1118509ec398607369acfd08f57\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\6fb47fa5f7026235bb1d3cb492950586\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\6fb47fa5f7026235bb1d3cb492950586\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\e1c24a366b8ac97687233a7b830d7227\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\e1c24a366b8ac97687233a7b830d7227\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\6713f3e7f190df13ad72862e7f55c6e6\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\6713f3e7f190df13ad72862e7f55c6e6\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\2f3be42608ef243d95dc8ac043a3668d\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\2f3be42608ef243d95dc8ac043a3668d\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\05161da6c5725e7345ea3948086252a7\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\05161da6c5725e7345ea3948086252a7\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\d6cab0e0a15b54dd2c18409f5cf79cd4\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\d6cab0e0a15b54dd2c18409f5cf79cd4\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\fb94d381e65d6c358898f9e9c673a32d\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\fb94d381e65d6c358898f9e9c673a32d\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\b47dfba387224f9896a68a756e58ec0a\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\b47dfba387224f9896a68a756e58ec0a\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\1dad04da65e08b3b731efe8ee37c5b0a\transformed\ui-test-manifest-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\1dad04da65e08b3b731efe8ee37c5b0a\transformed\ui-test-manifest-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\1038a74b8b10e92aa7a508ae101aabc4\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\1038a74b8b10e92aa7a508ae101aabc4\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\kifan\.gradle\caches\transforms-3\40ba0bf94cbb89eba39cbd4c4afceb76\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\kifan\.gradle\caches\transforms-3\40ba0bf94cbb89eba39cbd4c4afceb76\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\kifan\.gradle\caches\transforms-3\bc1abd992b6b7af5f0cc8b204cebf001\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\kifan\.gradle\caches\transforms-3\bc1abd992b6b7af5f0cc8b204cebf001\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\947cdb92bbe67244a839b8d89351d767\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\947cdb92bbe67244a839b8d89351d767\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\kifan\.gradle\caches\transforms-3\6d10a84069981b7754fce809709c46ca\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\kifan\.gradle\caches\transforms-3\6d10a84069981b7754fce809709c46ca\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.3] C:\Users\kifan\.gradle\caches\transforms-3\4dbaab09130a532201acb8b851c2a2f7\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.3] C:\Users\kifan\.gradle\caches\transforms-3\4dbaab09130a532201acb8b851c2a2f7\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.3] C:\Users\kifan\.gradle\caches\transforms-3\2275db60b16f431a34374f168eeaaff8\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.3] C:\Users\kifan\.gradle\caches\transforms-3\2275db60b16f431a34374f168eeaaff8\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\93bba6e9784a02da2311f458c7502c48\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\93bba6e9784a02da2311f458c7502c48\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\f0147255bd3f5550def92eff0d57c9a4\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\f0147255bd3f5550def92eff0d57c9a4\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\kifan\.gradle\caches\transforms-3\9078384b9ef7f2e7312f257ac3a778e6\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\kifan\.gradle\caches\transforms-3\9078384b9ef7f2e7312f257ac3a778e6\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\kifan\.gradle\caches\transforms-3\a70be28477b95763066180ce47af5422\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\kifan\.gradle\caches\transforms-3\a70be28477b95763066180ce47af5422\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\c793d9060d92b53698a18842788f0416\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\c793d9060d92b53698a18842788f0416\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\kifan\.gradle\caches\transforms-3\ee38063423ddee7bdff0db9bddfec447\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\kifan\.gradle\caches\transforms-3\ee38063423ddee7bdff0db9bddfec447\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\kifan\.gradle\caches\transforms-3\8b9f9bba6e67089164c59a8ca1d27206\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\kifan\.gradle\caches\transforms-3\8b9f9bba6e67089164c59a8ca1d27206\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\c4fa1a06149d3ce299e426df3228defd\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\c4fa1a06149d3ce299e426df3228defd\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\fde92a958c4017e5a84c9c0e4c04a5c7\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\fde92a958c4017e5a84c9c0e4c04a5c7\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\03dba0a3711d22d835cb096fd33f0bf3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\03dba0a3711d22d835cb096fd33f0bf3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\47fe4df8823a95dcf6e85b1fd7a297f0\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\47fe4df8823a95dcf6e85b1fd7a297f0\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\83118771f4b64a60ef6a439c3e6cb517\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\83118771f4b64a60ef6a439c3e6cb517\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\89bd5c677ca7995ee5a760ee685322f7\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\89bd5c677ca7995ee5a760ee685322f7\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kifan\.gradle\caches\transforms-3\18db95b0b4aca0a1bd2bd2fd49c21b55\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kifan\.gradle\caches\transforms-3\18db95b0b4aca0a1bd2bd2fd49c21b55\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kifan\.gradle\caches\transforms-3\0af1d61c19cf3f8fac80089212bc0369\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kifan\.gradle\caches\transforms-3\0af1d61c19cf3f8fac80089212bc0369\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\kifan\.gradle\caches\transforms-3\f453519d3cc2ecc71ad0b0044c3ba2c2\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\kifan\.gradle\caches\transforms-3\f453519d3cc2ecc71ad0b0044c3ba2c2\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\4af626896f97de23136a102dd05004f1\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\4af626896f97de23136a102dd05004f1\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\c324ed9fbf06785e54f5bfa133030e1d\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\c324ed9fbf06785e54f5bfa133030e1d\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\0caa93ba768648314ec8cf9c1539f3b2\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\0caa93ba768648314ec8cf9c1539f3b2\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\c30e3426267b5f69b88250dccea715db\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\c30e3426267b5f69b88250dccea715db\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\a42a68d2b4f5f8b4fc9f8b9dc726a362\transformed\lifecycle-livedata-core-ktx-2.8.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\a42a68d2b4f5f8b4fc9f8b9dc726a362\transformed\lifecycle-livedata-core-ktx-2.8.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\4e2c5976fb6cfa25754fb56363fffccb\transformed\lifecycle-livedata-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\4e2c5976fb6cfa25754fb56363fffccb\transformed\lifecycle-livedata-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\7ff02ac4f2a23ab5df760846f59e6593\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\7ff02ac4f2a23ab5df760846f59e6593\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\db53620733f5aa899020afda54f0854f\transformed\lifecycle-viewmodel-2.8.6\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\db53620733f5aa899020afda54f0854f\transformed\lifecycle-viewmodel-2.8.6\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\68c89c356f2ea7419f21ab1562a3026a\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\68c89c356f2ea7419f21ab1562a3026a\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\kifan\.gradle\caches\transforms-3\9603901e61282145da64245f2e185fe4\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\kifan\.gradle\caches\transforms-3\9603901e61282145da64245f2e185fe4\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\kifan\.gradle\caches\transforms-3\2a3d98692e31837b5508efcef20c7630\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\kifan\.gradle\caches\transforms-3\2a3d98692e31837b5508efcef20c7630\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\c7e7d815383dd89634ab53bf597f0347\transformed\lifecycle-livedata-core-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\c7e7d815383dd89634ab53bf597f0347\transformed\lifecycle-livedata-core-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\323cbeccdeac6e15ce1bb976ff0cbd79\transformed\lifecycle-viewmodel-ktx-2.8.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\323cbeccdeac6e15ce1bb976ff0cbd79\transformed\lifecycle-viewmodel-ktx-2.8.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\4fde8d925780e7a4c80dc59fd5278f0a\transformed\lifecycle-viewmodel-savedstate-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\4fde8d925780e7a4c80dc59fd5278f0a\transformed\lifecycle-viewmodel-savedstate-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\e36796f1f2f6663e13e4abca6051cd2a\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\e36796f1f2f6663e13e4abca6051cd2a\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\4e9499bbcbb6785ca014b91fbbed6c5b\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\4e9499bbcbb6785ca014b91fbbed6c5b\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\5eefb356972c330cbd5947cd5181f72a\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\5eefb356972c330cbd5947cd5181f72a\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\4e6e53347664ccefc9cd0424cc51c14f\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\4e6e53347664ccefc9cd0424cc51c14f\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\6a9fac4c30abe2884f57df8ffe1687af\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\6a9fac4c30abe2884f57df8ffe1687af\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bee8e33864ce9cd79bb930632622dc88\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bee8e33864ce9cd79bb930632622dc88\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\kifan\.gradle\caches\transforms-3\c8b95a8210f4728f3d22284c0fadf91e\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\kifan\.gradle\caches\transforms-3\c8b95a8210f4728f3d22284c0fadf91e\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\kifan\.gradle\caches\transforms-3\970126c43196e8c7220bf8636f90cd40\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\kifan\.gradle\caches\transforms-3\970126c43196e8c7220bf8636f90cd40\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\kifan\.gradle\caches\transforms-3\f47465e50d237970582c5fbc40a32411\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\kifan\.gradle\caches\transforms-3\f47465e50d237970582c5fbc40a32411\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\kifan\.gradle\caches\transforms-3\4e65400c5374ec0c4a5acdc8a7c55c23\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\kifan\.gradle\caches\transforms-3\4e65400c5374ec0c4a5acdc8a7c55c23\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.2] C:\Users\kifan\.gradle\caches\transforms-3\82d0d263562b4d746d4edcfe98e9d605\transformed\activity-1.9.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] C:\Users\kifan\.gradle\caches\transforms-3\82d0d263562b4d746d4edcfe98e9d605\transformed\activity-1.9.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] C:\Users\kifan\.gradle\caches\transforms-3\ac3a3d0a2a504a1c40fc44add49ebe16\transformed\activity-ktx-1.9.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] C:\Users\kifan\.gradle\caches\transforms-3\ac3a3d0a2a504a1c40fc44add49ebe16\transformed\activity-ktx-1.9.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] C:\Users\kifan\.gradle\caches\transforms-3\ce615c378a66a312ed795a72f99acad6\transformed\activity-compose-1.9.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] C:\Users\kifan\.gradle\caches\transforms-3\ce615c378a66a312ed795a72f99acad6\transformed\activity-compose-1.9.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\kifan\.gradle\caches\transforms-3\5edd09da2e90f833746da753e98e43fc\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\kifan\.gradle\caches\transforms-3\5edd09da2e90f833746da753e98e43fc\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\606c779567bb3d2b2500574c7fba9e37\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\606c779567bb3d2b2500574c7fba9e37\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\2239eee86c3813586ad3bdddafa84257\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\2239eee86c3813586ad3bdddafa84257\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kifan\.gradle\caches\transforms-3\e9cef282f87dcde47fdea12a4737382b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kifan\.gradle\caches\transforms-3\e9cef282f87dcde47fdea12a4737382b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\kifan\.gradle\caches\transforms-3\dfa3e7aa2a2eb1982b0b7ae46a55cd78\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\kifan\.gradle\caches\transforms-3\dfa3e7aa2a2eb1982b0b7ae46a55cd78\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kifan\.gradle\caches\transforms-3\597d26e51817e91cd111df3f88f87103\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kifan\.gradle\caches\transforms-3\597d26e51817e91cd111df3f88f87103\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\549b230a7a6dd17f44f86a46d578f2bb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\549b230a7a6dd17f44f86a46d578f2bb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\kifan\.gradle\caches\transforms-3\574c2ace9e168f8bed9c5120aef2fe8b\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\kifan\.gradle\caches\transforms-3\574c2ace9e168f8bed9c5120aef2fe8b\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\3978ec68c5b0b012e50f486c4557355b\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\3978ec68c5b0b012e50f486c4557355b\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\169200c85169acf5ff7fe31a9891f381\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\169200c85169acf5ff7fe31a9891f381\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\264d9cb6afd808ad935a5e8ea6b2ea36\transformed\transport-runtime-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\264d9cb6afd808ad935a5e8ea6b2ea36\transformed\transport-runtime-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\kifan\.gradle\caches\transforms-3\f2323922c4270c2ce668aa74add075bc\transformed\transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\kifan\.gradle\caches\transforms-3\f2323922c4270c2ce668aa74add075bc\transformed\transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\kifan\.gradle\caches\transforms-3\3bcf5c809847c328c03748cdeeb3f7cc\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\kifan\.gradle\caches\transforms-3\3bcf5c809847c328c03748cdeeb3f7cc\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\kifan\.gradle\caches\transforms-3\5a4d871f2009258c06718bab66a1c94d\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\kifan\.gradle\caches\transforms-3\5a4d871f2009258c06718bab66a1c94d\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\df8c21583270302b82c82e978ef77cca\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\df8c21583270302b82c82e978ef77cca\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\df99ee145aa0af11d8b37183093d3024\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\df99ee145aa0af11d8b37183093d3024\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\1301195f36a5eb19c386d999be681baa\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kifan\.gradle\caches\transforms-3\1301195f36a5eb19c386d999be681baa\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\kifan\.gradle\caches\transforms-3\6ebe8ba14a875d05201d8f7defbcc2a2\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\kifan\.gradle\caches\transforms-3\6ebe8ba14a875d05201d8f7defbcc2a2\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\kifan\.gradle\caches\transforms-3\00ca80d6d5b7f9c72323a300c3fddf31\transformed\grpc-android-1.62.2\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\kifan\.gradle\caches\transforms-3\00ca80d6d5b7f9c72323a300c3fddf31\transformed\grpc-android-1.62.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.dagger:dagger-lint-aar:2.49] C:\Users\kifan\.gradle\caches\transforms-3\b5155ca0fc1aaa072b1734f3ec292a4b\transformed\dagger-lint-aar-2.49\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.49] C:\Users\kifan\.gradle\caches\transforms-3\b5155ca0fc1aaa072b1734f3ec292a4b\transformed\dagger-lint-aar-2.49\AndroidManifest.xml:18:3-42
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\8f6345038b204da153a7fd24d514ba8d\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\8f6345038b204da153a7fd24d514ba8d\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\kifan\.gradle\caches\transforms-3\00e9cdba5012536a7a98f2a99e98a37b\transformed\core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\kifan\.gradle\caches\transforms-3\00e9cdba5012536a7a98f2a99e98a37b\transformed\core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\kifan\Downloads\JetMovie\jetMovie-development\app\src\main\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\b16208d5537cab39e85c951e909644ed\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\fb6c6591bff1f5f35189e7839f45e3a6\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\fb6c6591bff1f5f35189e7839f45e3a6\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\68f37b27ec881dabb29c527666df264f\transformed\firebase-messaging-ktx-24.0.3\AndroidManifest.xml:23:9-29:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\68f37b27ec881dabb29c527666df264f\transformed\firebase-messaging-ktx-24.0.3\AndroidManifest.xml:23:9-29:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\c4fd24527f2d494d259ae9dc71b53964\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\c4fd24527f2d494d259ae9dc71b53964\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\kifan\.gradle\caches\transforms-3\574c2ace9e168f8bed9c5120aef2fe8b\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:22:9-28:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\kifan\.gradle\caches\transforms-3\574c2ace9e168f8bed9c5120aef2fe8b\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:22:9-28:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\b16208d5537cab39e85c951e909644ed\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:10:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\b16208d5537cab39e85c951e909644ed\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:9:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\b16208d5537cab39e85c951e909644ed\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\b16208d5537cab39e85c951e909644ed\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\b16208d5537cab39e85c951e909644ed\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:12:17-119
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\kifan\.gradle\caches\transforms-3\80fbf6874a28d37b9687d1b0eb20c45a\transformed\recaptcha-18.5.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\kifan\.gradle\caches\transforms-3\80fbf6874a28d37b9687d1b0eb20c45a\transformed\recaptcha-18.5.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\kifan\.gradle\caches\transforms-3\162ea007377a88bd750c38bd2902fbf5\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\kifan\.gradle\caches\transforms-3\162ea007377a88bd750c38bd2902fbf5\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\3978ec68c5b0b012e50f486c4557355b\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\3978ec68c5b0b012e50f486c4557355b\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\264d9cb6afd808ad935a5e8ea6b2ea36\transformed\transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\264d9cb6afd808ad935a5e8ea6b2ea36\transformed\transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\kifan\.gradle\caches\transforms-3\00ca80d6d5b7f9c72323a300c3fddf31\transformed\grpc-android-1.62.2\AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\kifan\.gradle\caches\transforms-3\00ca80d6d5b7f9c72323a300c3fddf31\transformed\grpc-android-1.62.2\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\kifan\.gradle\caches\transforms-3\d8424ce3bf1bff2208a919c38eb80566\transformed\firebase-auth-23.1.0\AndroidManifest.xml:70:17-109
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:35:13-76
+activity#androidx.credentials.playservices.IdentityCredentialApiHiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:42:9-49:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:47:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:46:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:44:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:48:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\kifan\.gradle\caches\transforms-3\5e47cc1ddc1a77565f18908b01f4d81d\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:43:13-97
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\fb6c6591bff1f5f35189e7839f45e3a6\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\fb6c6591bff1f5f35189e7839f45e3a6\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\fb6c6591bff1f5f35189e7839f45e3a6\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:13:17-129
+meta-data#com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar
+ADDED from [com.google.firebase:firebase-messaging-ktx:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\68f37b27ec881dabb29c527666df264f\transformed\firebase-messaging-ktx-24.0.3\AndroidManifest.xml:26:13-28:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging-ktx:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\68f37b27ec881dabb29c527666df264f\transformed\firebase-messaging-ktx-24.0.3\AndroidManifest.xml:28:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging-ktx:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\68f37b27ec881dabb29c527666df264f\transformed\firebase-messaging-ktx-24.0.3\AndroidManifest.xml:27:17-129
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\kifan\.gradle\caches\transforms-3\09276a1b28c471dbc9235451a1269a57\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\kifan\.gradle\caches\transforms-3\09276a1b28c471dbc9235451a1269a57\transformed\biometric-1.1.0\AndroidManifest.xml:24:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\kifan\.gradle\caches\transforms-3\09276a1b28c471dbc9235451a1269a57\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\kifan\.gradle\caches\transforms-3\09276a1b28c471dbc9235451a1269a57\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bfe3fa18a120402f605a00ec663a0792\transformed\play-services-auth-21.1.1\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bfe3fa18a120402f605a00ec663a0792\transformed\play-services-auth-21.1.1\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bfe3fa18a120402f605a00ec663a0792\transformed\play-services-auth-21.1.1\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bfe3fa18a120402f605a00ec663a0792\transformed\play-services-auth-21.1.1\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bfe3fa18a120402f605a00ec663a0792\transformed\play-services-auth-21.1.1\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bfe3fa18a120402f605a00ec663a0792\transformed\play-services-auth-21.1.1\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bfe3fa18a120402f605a00ec663a0792\transformed\play-services-auth-21.1.1\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bfe3fa18a120402f605a00ec663a0792\transformed\play-services-auth-21.1.1\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bfe3fa18a120402f605a00ec663a0792\transformed\play-services-auth-21.1.1\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\kifan\.gradle\caches\transforms-3\bfe3fa18a120402f605a00ec663a0792\transformed\play-services-auth-21.1.1\AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\kifan\.gradle\caches\transforms-3\55129fb47fdfd8c525563be4c31f1027\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:21:17-111
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:23:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\kifan\.gradle\caches\transforms-3\162ea007377a88bd750c38bd2902fbf5\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\kifan\.gradle\caches\transforms-3\162ea007377a88bd750c38bd2902fbf5\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\kifan\.gradle\caches\transforms-3\162ea007377a88bd750c38bd2902fbf5\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\kifan\.gradle\caches\transforms-3\162ea007377a88bd750c38bd2902fbf5\transformed\play-services-cloud-messaging-17.2.0\AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:26:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:29:9-40:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:30:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:33:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:34:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:34:25-78
+meta-data#com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED
+ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:37:13-39:40
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:39:17-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:38:17-92
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:46:9-53:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:49:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:48:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:47:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:50:13-52:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:50:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:51:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:51:25-75
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:57:13-59:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:58:17-122
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:60:13-62:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:62:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.3] C:\Users\kifan\.gradle\caches\transforms-3\a187168b424277b87fafe263179dcc1e\transformed\firebase-messaging-24.0.3\AndroidManifest.xml:61:17-119
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\kifan\.gradle\caches\transforms-3\629359799fd46d82b55c2541677c869b\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\kifan\.gradle\caches\transforms-3\629359799fd46d82b55c2541677c869b\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\kifan\.gradle\caches\transforms-3\629359799fd46d82b55c2541677c869b\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\kifan\.gradle\caches\transforms-3\629359799fd46d82b55c2541677c869b\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\kifan\.gradle\caches\transforms-3\3089eb5d2ca88648dc957faa554c78dc\transformed\firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\c4fd24527f2d494d259ae9dc71b53964\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\c4fd24527f2d494d259ae9dc71b53964\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\c4fd24527f2d494d259ae9dc71b53964\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\kifan\.gradle\caches\transforms-3\4f82786f1e5063a25ab74593db509296\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\kifan\.gradle\caches\transforms-3\80fbf6874a28d37b9687d1b0eb20c45a\transformed\recaptcha-18.5.1\AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\kifan\.gradle\caches\transforms-3\80fbf6874a28d37b9687d1b0eb20c45a\transformed\recaptcha-18.5.1\AndroidManifest.xml:9:22-95
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\1dad04da65e08b3b731efe8ee37c5b0a\transformed\ui-test-manifest-1.7.2\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\1dad04da65e08b3b731efe8ee37c5b0a\transformed\ui-test-manifest-1.7.2\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\1dad04da65e08b3b731efe8ee37c5b0a\transformed\ui-test-manifest-1.7.2\AndroidManifest.xml:24:13-63
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\1038a74b8b10e92aa7a508ae101aabc4\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\1038a74b8b10e92aa7a508ae101aabc4\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] C:\Users\kifan\.gradle\caches\transforms-3\1038a74b8b10e92aa7a508ae101aabc4\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\c324ed9fbf06785e54f5bfa133030e1d\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\c30e3426267b5f69b88250dccea715db\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\c30e3426267b5f69b88250dccea715db\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kifan\.gradle\caches\transforms-3\e9cef282f87dcde47fdea12a4737382b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kifan\.gradle\caches\transforms-3\e9cef282f87dcde47fdea12a4737382b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\c324ed9fbf06785e54f5bfa133030e1d\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\c324ed9fbf06785e54f5bfa133030e1d\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\c324ed9fbf06785e54f5bfa133030e1d\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\c324ed9fbf06785e54f5bfa133030e1d\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\c324ed9fbf06785e54f5bfa133030e1d\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\c324ed9fbf06785e54f5bfa133030e1d\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kifan\.gradle\caches\transforms-3\c324ed9fbf06785e54f5bfa133030e1d\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\0caa93ba768648314ec8cf9c1539f3b2\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\0caa93ba768648314ec8cf9c1539f3b2\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\0caa93ba768648314ec8cf9c1539f3b2\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+permission#com.example.jetmovie.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\0caa93ba768648314ec8cf9c1539f3b2\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\0caa93ba768648314ec8cf9c1539f3b2\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\0caa93ba768648314ec8cf9c1539f3b2\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\0caa93ba768648314ec8cf9c1539f3b2\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\0caa93ba768648314ec8cf9c1539f3b2\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.jetmovie.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\0caa93ba768648314ec8cf9c1539f3b2\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\kifan\.gradle\caches\transforms-3\0caa93ba768648314ec8cf9c1539f3b2\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\c30e3426267b5f69b88250dccea715db\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\c30e3426267b5f69b88250dccea715db\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kifan\.gradle\caches\transforms-3\c30e3426267b5f69b88250dccea715db\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\kifan\.gradle\caches\transforms-3\f47465e50d237970582c5fbc40a32411\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\kifan\.gradle\caches\transforms-3\f47465e50d237970582c5fbc40a32411\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\kifan\.gradle\caches\transforms-3\f47465e50d237970582c5fbc40a32411\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kifan\.gradle\caches\transforms-3\59ba6e92f643176cff49d38b4de32cda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\kifan\.gradle\caches\transforms-3\574c2ace9e168f8bed9c5120aef2fe8b\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\kifan\.gradle\caches\transforms-3\574c2ace9e168f8bed9c5120aef2fe8b\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\kifan\.gradle\caches\transforms-3\574c2ace9e168f8bed9c5120aef2fe8b\transformed\firebase-datatransport-18.2.0\AndroidManifest.xml:26:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\3978ec68c5b0b012e50f486c4557355b\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\264d9cb6afd808ad935a5e8ea6b2ea36\transformed\transport-runtime-3.1.9\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\264d9cb6afd808ad935a5e8ea6b2ea36\transformed\transport-runtime-3.1.9\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\3978ec68c5b0b012e50f486c4557355b\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\3978ec68c5b0b012e50f486c4557355b\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\3978ec68c5b0b012e50f486c4557355b\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\3978ec68c5b0b012e50f486c4557355b\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\3978ec68c5b0b012e50f486c4557355b\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\264d9cb6afd808ad935a5e8ea6b2ea36\transformed\transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\264d9cb6afd808ad935a5e8ea6b2ea36\transformed\transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\264d9cb6afd808ad935a5e8ea6b2ea36\transformed\transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\264d9cb6afd808ad935a5e8ea6b2ea36\transformed\transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\264d9cb6afd808ad935a5e8ea6b2ea36\transformed\transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\264d9cb6afd808ad935a5e8ea6b2ea36\transformed\transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\kifan\.gradle\caches\transforms-3\264d9cb6afd808ad935a5e8ea6b2ea36\transformed\transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\kifan\.gradle\caches\transforms-3\00e9cdba5012536a7a98f2a99e98a37b\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\kifan\.gradle\caches\transforms-3\00e9cdba5012536a7a98f2a99e98a37b\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\kifan\.gradle\caches\transforms-3\00e9cdba5012536a7a98f2a99e98a37b\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\kifan\.gradle\caches\transforms-3\00e9cdba5012536a7a98f2a99e98a37b\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\kifan\.gradle\caches\transforms-3\00e9cdba5012536a7a98f2a99e98a37b\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93

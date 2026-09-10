@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.3.0" type="conditional_incidents">
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <fix-replace
+            description="Delete tools:targetApi"
+            replacement="">
+            <range
+                file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
+                startOffset="679"
+                endOffset="699"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="17"
+            column="9"
+            startOffset="679"
+            endLine="17"
+            endColumn="29"
+            endOffset="699"/>
+        <map>
+            <condition minGE="ffffffffc0000000"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/baseline_person_24.xml"
+            line="3"
+            column="30"
+            startOffset="225"
+            endLine="3"
+            endColumn="50"
+            endOffset="245"/>
+        <map>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.ACCESS_NETWORK_STATE" message="Missing permissions required by ConnectivityManager.getActiveNetwork: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/jetmovie/utils/NetworkUtils.kt"
+            line="10"
+            column="23"
+            startOffset="342"
+            endLine="10"
+            endColumn="39"
+            endOffset="358"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.ACCESS_NETWORK_STATE"/>
+            <entry
+                name="message"
+                string="Missing permissions required by ConnectivityManager.getActiveNetwork: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.ACCESS_NETWORK_STATE" message="Missing permissions required by ConnectivityManager.getNetworkCapabilities: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/jetmovie/utils/NetworkUtils.kt"
+            line="11"
+            column="20"
+            startOffset="394"
+            endLine="11"
+            endColumn="54"
+            endOffset="428"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.ACCESS_NETWORK_STATE"/>
+            <entry
+                name="message"
+                string="Missing permissions required by ConnectivityManager.getNetworkCapabilities: %1$s"/>
+        </map>
+    </incident>
+
+</incidents>

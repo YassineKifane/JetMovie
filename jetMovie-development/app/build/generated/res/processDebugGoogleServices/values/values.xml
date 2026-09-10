@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="gcm_defaultSenderId" translatable="false">966890183439</string>
-    <string name="google_api_key" translatable="false">AIzaSyDgVfURmZNKb7c7HbY6JuZYXAxdeLJ9_2s</string>
-    <string name="google_app_id" translatable="false">1:966890183439:android:ff8eea49a6640f905ebc7a</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDgVfURmZNKb7c7HbY6JuZYXAxdeLJ9_2s</string>
-    <string name="google_storage_bucket" translatable="false">jetmovie-7fc42.firebasestorage.app</string>
-    <string name="project_id" translatable="false">jetmovie-7fc42</string>
-</resources>
